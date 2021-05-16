@@ -18,10 +18,10 @@
 
 <h3>Sample Input</h3>
 
- array = [3, 5, -4, 8, 11, 1, -1, 6]
-
- targetSum = 10
-
+    array = [3, 5, -4, 8, 11, 1, -1, 6]
+  
+    targetSum = 10
+  
 <h3>Sample Output</h3>
 
-[-1, 11] 
+    [-1, 11] 
