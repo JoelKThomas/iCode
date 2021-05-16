@@ -8,6 +8,6 @@ def twoNumberSumUsingLoop(array, targetSum):
     return []
 
 
-new_array = [1, 2, 3, 4]
-print(twoNumberSumUsingLoop(new_array, 6))
+new_array = [3, 5, -4, 8, 11, 1, -1, 6]
+print(twoNumberSumUsingLoop(new_array, 10))
 
