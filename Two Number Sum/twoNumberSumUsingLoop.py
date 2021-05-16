@@ -1,3 +1,4 @@
+# O(n^2) time | O(N) space
 def twoNumberSumUsingLoop(array, targetSum):
     for i in range(len(array) - 1):
         first = array[i]
