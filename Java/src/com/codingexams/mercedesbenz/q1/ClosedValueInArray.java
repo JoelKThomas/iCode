@@ -1,4 +1,4 @@
-package com.codingexams.mercedesbenz;
+package com.codingexams.mercedesbenz.q1;
 
 public class ClosedValueInArray {
 
