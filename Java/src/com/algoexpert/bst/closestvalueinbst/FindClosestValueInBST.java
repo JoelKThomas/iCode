@@ -1,26 +1,22 @@
-package com.algoexpert.BST.closestvalueinbst;
+package com.algoexpert.bst.closestvalueinbst;
 
-public class FindClosestValueInBSTUsingWhile {
+public class FindClosestValueInBST {
 
     public static int findClosestValueInBst(BST tree, int target) {
         return findClosestValueInBstHelper(tree, target, tree.value);
     }
 
     public static int findClosestValueInBstHelper(BST tree, int target, int closest) {
-        BST currentNode = tree;
-        while(currentNode != null){
-            if (Math.abs(target - currentNode.value) < Math.abs(target - closest)) {
-                closest = currentNode.value;
-            }
-            if (target <  currentNode.value) {
-                currentNode = currentNode.left;
-            } else if (target >  currentNode.value) {
-                currentNode = currentNode.right;
-            } else {
-                break;
-            }
+        if (Math.abs(target - tree.value) < Math.abs(target - closest)) {
+            closest = tree.value;
         }
-        return closest;
+        if (target < tree.value && tree.left != null) {
+            return findClosestValueInBstHelper(tree.left, target, closest);
+        } else if (target > tree.value && tree.right != null) {
+            return findClosestValueInBstHelper(tree.right, target, closest);
+        } else {
+            return closest;
+        }
     }
 
     public static class BST {
@@ -44,7 +40,7 @@ public class FindClosestValueInBSTUsingWhile {
         root.right.left.right = new BST(14);
         root.right.right = new BST(22);
 
-        System.out.println("The Closest Value in the BST is :" + findClosestValueInBst(root, 11) );
+        System.out.println("The Closest Value in the BST is :" + findClosestValueInBst(root, 7) );
 
     }
 }

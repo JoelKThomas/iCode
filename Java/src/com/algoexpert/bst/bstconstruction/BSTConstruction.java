@@ -1,4 +1,4 @@
-package com.algoexpert.BST.bstconstruction;
+package com.algoexpert.bst.bstconstruction;
 
 public class BSTConstruction {
     static class BST {
