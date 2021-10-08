@@ -1,4 +1,4 @@
-package com.algoexpert.closestvalueinbst;
+package com.algoexpert.BST.closestvalueinbst;
 
 public class FindClosestValueInBSTUsingWhile {
 

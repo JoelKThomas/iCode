@@ -1,5 +1,5 @@
 //NOT OPTIMISED 1 Test case Failed- Time Exceeded Error
-package com.codingexams.goldmansachs.q1;
+package com.codingexams.goldmansachs.round1.q1;
 
 import java.util.Scanner;
 

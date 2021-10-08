@@ -1,4 +1,4 @@
-package com.codingexams.goldmansachs.q2;
+package com.codingexams.goldmansachs.round1.q2;
 
 import java.util.ArrayList;
 import java.util.Collections;
