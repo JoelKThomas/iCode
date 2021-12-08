@@ -115,7 +115,7 @@
 > 1. Make constructor as private.
 > 2. Write a static method that has return type object of this singleton class.
 
-* Sping scope beans
+* Spring scope beans
 
 > 1. **Singleton**- This scopes the bean definition to a single instance per Spring IoC container (default).
 > 2. **Prototype**- This scopes a single bean definition to have any number of object instances.
