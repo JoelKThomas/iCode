@@ -98,7 +98,8 @@
 * What is serialization vs deserialization
 
 > convert the object into stream- serialization
-> convert the stream to object deserialization
+> 
+> convert the stream to object-  deserialization
 
 * What are Marker Interface
 
