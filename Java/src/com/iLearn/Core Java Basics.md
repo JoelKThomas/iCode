@@ -8,9 +8,9 @@
 > s.concat("de")
 > sysout(s)
 > ```
-> 
+>
 > **Answer**: abc
-> 
+>
 > For updating: ```s = s.concat("de") ```
 
 * Difference between String, StringBuilder, StringBuffer?
@@ -45,18 +45,17 @@
 * Is it possible by changing return type to achieve overloading?
 
 > No
-> 
+>
 > ```
 > int sum(5,9)
 > double sum(5,7)
 > ```
-> 
+>
 > It will be getting confused and reach to ambiguity.
 
 * can we override static method? *No, not possible*
 * can we overload main method?  *Yes*
 * static keyword - means we cant override.
-
 * Diff b/w final variable. final class, final method?
 
 > final variable - can't change value
@@ -98,7 +97,7 @@
 * What is serialization vs deserialization
 
 > convert the object into stream- serialization
-> 
+>
 > convert the stream to object-  deserialization
 
 * What are Marker Interface
@@ -122,4 +121,3 @@
 > 3. **Request**- This scopes a bean definition to an HTTP request. Only valid in the context of a web-aware Spring ApplicationContext.
 > 4. **Session**- This scopes a bean definition to an HTTP session. Only valid in the context of a web-aware Spring ApplicationContext.
 > 5. **Global-session**- This scopes a bean definition to a global HTTP session. Only valid in the context of a web-aware Spring ApplicationContext.
-

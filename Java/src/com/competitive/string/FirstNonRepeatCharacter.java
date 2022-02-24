@@ -1,5 +1,5 @@
 //Problem: First Non-repeating characters in the String. (HashMap approach is accepted).
-package com.competitive.string.findnonrepeatcharacter;
+package com.competitive.string;
 
 import java.util.HashMap;
 import java.util.Map;
