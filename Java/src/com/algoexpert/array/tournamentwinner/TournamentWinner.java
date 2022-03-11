@@ -13,7 +13,7 @@ public class TournamentWinner {
             if (scoreMap.containsKey(matchWinner)) {
                 scoreMap.put(matchWinner, scoreMap.get(matchWinner) + 3);
             } else {
-                scoreMap.put(matchWinner, 1);
+                scoreMap.put(matchWinner, 3);
             }
         }
         int maxValueInMap = (Collections.max(scoreMap.values()));
