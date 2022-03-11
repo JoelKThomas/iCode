@@ -20,7 +20,7 @@ public class NonConstructibleChange {
 
 
     public static void main(String[] args) {
-        int[] input = new int[]{5, 7, 1, 1, 2, 3, 22};
+        int[] input = new int[]{5, 7, 1, 1, 2, 3, 22, 20, 31};
         var actual = nonConstructibleChange(input);
 
         System.out.println("Change: " + actual);
