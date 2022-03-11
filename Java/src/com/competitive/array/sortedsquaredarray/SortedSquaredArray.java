@@ -1,4 +1,4 @@
-package com.algoexpert.array.sortedsquaredarray;
+package com.competitive.array.sortedsquaredarray;
 
 import java.util.Arrays;
 

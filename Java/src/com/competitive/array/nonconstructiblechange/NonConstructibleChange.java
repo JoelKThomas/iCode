@@ -1,5 +1,5 @@
 
-package com.algoexpert.array.nonconstructiblechange;
+package com.competitive.array.nonconstructiblechange;
 
 import java.util.Arrays;
 

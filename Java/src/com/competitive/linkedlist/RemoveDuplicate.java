@@ -1,4 +1,4 @@
-package com.algoexpert.linkedlist.removeduplicates;
+package com.competitive.linkedlist;
 
 
 import java.util.ArrayList;

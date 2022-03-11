@@ -1,4 +1,4 @@
-package com.algoexpert.array.tournamentwinner;
+package com.competitive.array.tournamentwinner;
 
 import java.util.*;
 

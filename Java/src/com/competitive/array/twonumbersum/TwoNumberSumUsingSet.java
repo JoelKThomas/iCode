@@ -1,4 +1,4 @@
-package com.algoexpert.array.twonumbersum;
+package com.competitive.array.twonumbersum;
 
 import java.util.HashSet;
 import java.util.Set;

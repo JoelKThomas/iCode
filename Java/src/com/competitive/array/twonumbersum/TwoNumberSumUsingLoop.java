@@ -1,4 +1,4 @@
-package com.algoexpert.array.twonumbersum;
+package com.competitive.array.twonumbersum;
 
 public class TwoNumberSumUsingLoop {
     // O(n^2) time | O(N) space

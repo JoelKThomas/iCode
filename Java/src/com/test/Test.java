@@ -1,4 +1,4 @@
-package com.competitive.test;
+package com.test;
 
 
 public class Test {
