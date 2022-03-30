@@ -1,4 +1,4 @@
-package com.codingexams.goldmansachs.round1.q1;
+package com.codingexams.goldmansachs.q1;
 
 public class AlphanumericCombinationsGFG {
 
