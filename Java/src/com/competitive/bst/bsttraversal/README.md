@@ -11,13 +11,12 @@ than the values of every node to its left; its value is less than or equal to th
 to its right; and its children nodes are either valid BST nodes themselves or None / null .
 
 <h3>Sample Input<h3>
-    ![img.png](assets/img.png)
-    
-    array = []
 
+array = []
+
+![img.png](./assets/1648668692091-img.png)
 <h3>Sample Output<h3>
-```
-inOrderTraverse: [1, 2, 5, 5, 10, 15, 22]  // where the array is the input array
-preOrderTraverse: [10, 5, 2, 1, 5, 15, 22]  // where the array is the input array
-postOrderTraverse: [1, 2, 5, 5, 22, 15, 10] // where the array is the input array
-```
+
+inOrderTraverse: [1, 2, 5, 5, 10, 15, 22]   // where the array is the input array
+preOrderTraverse: [10, 5, 2, 1, 5, 15, 22]   // where the array is the input array
+postOrderTraverse: [1, 2, 5, 5, 22, 15, 10]  // where the array is the input array

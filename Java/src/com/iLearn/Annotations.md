@@ -1,0 +1,6 @@
+# Annotations
+
+* @Configuration
+
+
+* @ComponentScan
