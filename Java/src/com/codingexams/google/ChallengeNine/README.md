@@ -1,4 +1,4 @@
-<h3>Problem: Speed Typing </h3>
+<h3>Problem: Number of Islands </h3>
 
 Problem
 Barbara is a speed typer. In order to check her typing speed, she performs a speed test. 
