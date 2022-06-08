@@ -44,14 +44,8 @@ public class StreamComparator {
         empList.add(new Employee("3", "GHI","EC", 300));
         empList.add(new Employee("4", "XYZ","EC", 100));
 
-
         Comparator<Employee> c = Comparator.comparing(Employee::getName);
         empList.stream().sorted(c.reversed()).forEach(emp -> System.out.println(emp.getName()));
-
-
-        Comparator<Employee> cs = Comparator.comparing(Employee::getSalary);
-         empList.stream().sorted(cs).findFirst().;
-
 
     }
 }
