@@ -1,4 +1,4 @@
-package com.codingexams.amazon.updatebst;
+package com.codingexams.amazon.updateBST;
 
 public class UpdateSumBST {
     private static int sum = 0;
