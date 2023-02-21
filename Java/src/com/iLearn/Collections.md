@@ -1,6 +1,8 @@
 Collections(I)
----------------
-It is a interface, represents group of objects into single entity
+
+![img.png](resources/img/collections.png)
+
+It is an interface, represents group of objects into single entity
 Iterable is the root of collections
 object is the root of iterable
 
@@ -105,44 +107,3 @@ Hashset - no order
 data structure: hash table
 Treeset - ascending order
 data structure: red black tree
-------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
-Map
-------------        
-
-storing elements in key- value
-
-Hashmap, linkedhashmap, sortedmap, treemap, concurrenthashmap, hash table
-
-
-HashSet and Hashmap
---------------------
-
-hashset - set store only value, not keys
-set Interface
-no duplicate values
-one null value
-
-
-hashmap- store key and value
-map interface
-allow duplicate values
-multiple null value
-
-Hashmap vs treemap
------------------
-hashmap - no order
-null key
-
-treemap - ascending order map
-no null key
-
-
-Hashmap vs Hash table
----------------------
-Hashmap - ASynchronous
-one null key and multiple null values
-multiple thread
-HashTable - Synchronous
-doesn’t allow any null key or value.
-Single thread
