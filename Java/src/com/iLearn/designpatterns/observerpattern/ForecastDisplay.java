@@ -16,7 +16,9 @@ public class ForecastDisplay implements Observer, DisplayElement {
 
         display();
     }
-
+public String getAllValues() {
+    return "Current Pressure: " + currentPressure + ", Last Pressure: " + lastPressure + ", WeatherData: " + weatherData.toString();
+}
     public void display() {
         System.out.print("Forecast: ");
         if (currentPressure > lastPressure) {
