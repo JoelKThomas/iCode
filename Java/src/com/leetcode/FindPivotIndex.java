@@ -49,4 +49,36 @@ Constraints:
 package com.leetcode;
 
 public class FindPivotIndex {
+    public int pivotIndex(int[] nums) {
+
+        int[] sumLeft = new int[nums.length];
+        int[] sumRight = new int[nums.length];
+
+        sumLeft[0] = 0;
+        sumRight[nums.length-1] = 0;
+        for(int i =1; i < nums.length; i++){
+            sumLeft[i] = nums[i-1]+ sumLeft[i-1];
+        }
+
+        for(int i =nums.length-2; i >= 0; i--){
+            sumRight[i] = nums[i+1]+ sumRight[i+1];
+        }
+
+        for(int i= 0 ; i < nums.length; i++){
+            if(sumLeft[i] == sumRight[i]){
+                return i-1;
+            }
+        }
+
+        return 0;
+
+
+    }
+    public static void main(String[] args) {
+        FindPivotIndex findPivotIndex = new FindPivotIndex();
+
+        int[] arr = new int[]{1,7,3,6,5,6};
+
+        System.out.println(findPivotIndex.pivotIndex(arr));
+    }
 }
