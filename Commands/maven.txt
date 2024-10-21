@@ -1,0 +1,7 @@
+Create a mavn application
+
+mvn archetype:generate
+-DgroupId=com.design.billingplatform
+-DartifactId=billingplatform
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false
