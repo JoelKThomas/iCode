@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "feb35b0c-a76c-4c9e-83da-914a73101017",
+		"name": "cloudbilling",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5522101"
+	},
+	"item": [
+		{
+			"name": "Create a New Customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\": \"john.doe@example.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customers"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST http://localhost:8080/api/customers \\\r\n-H \"Content-Type: application/json\" \\\r\n-d '{\r\n  \"name\": \"John Doe\",\r\n  \"email\": \"john.doe@example.com\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch Customer By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/customer/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET http://localhost:8080/api/customer/1\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Generate an invoice for a subscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/billing/subscriptions/1/invoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"billing",
+						"subscriptions",
+						"1",
+						"invoices"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST \"http://localhost:8080/api/billing/subscriptions/{subscriptionId}/invoices\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch all invoices for a specific customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/billing/customers/{customerId}/invoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"billing",
+						"customers",
+						"{customerId}",
+						"invoices"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET \"http://localhost:8080/api/billing/customers/{customerId}/invoices\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch all subscriptions for a specific customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/billing/customers/{customerId}/subscriptions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"billing",
+						"customers",
+						"{customerId}",
+						"subscriptions"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET \"http://localhost:8080/api/billing/customers/{customerId}/subscriptions\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Create a subscription for a customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"servicePlanId\": \"Backup Service\",\r\n      \"pricingModel\": \"Pay-as-you-go\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/billing/customers/2/subscriptions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"billing",
+						"customers",
+						"2",
+						"subscriptions"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/billing/customers/1/subscriptions' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n      \"servicePlanId\": \"1\",\r\n      \"pricingModel\": \"Pay-as-you-go\"  # Replace with the appropriate pricing model\r\n    }'\r\n"
+			},
+			"response": []
+		}
+	]
+}
