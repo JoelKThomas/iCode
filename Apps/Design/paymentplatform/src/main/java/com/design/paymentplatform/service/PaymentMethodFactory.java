@@ -1,4 +1,4 @@
-package com.design.paymentplatform.factory;
+package com.design.paymentplatform.service;
 
 import com.design.paymentplatform.model.PaymentMethodType;
 import com.design.paymentplatform.service.PaymentMethod;
