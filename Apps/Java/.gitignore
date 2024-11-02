@@ -1,0 +1,6 @@
+/venv
+**/idea
+iCode.iml
+.idea
+**.xml
+**/out
