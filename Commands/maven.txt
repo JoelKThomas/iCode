@@ -1,3 +1,10 @@
 Create a maven application
 
 mvn archetype:generate -DgroupId=com.design.paymentplatform -DartifactId=codingplatform -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+mvn archetype:generate
+-DgroupId=com.design.paymentplatform
+-DartifactId=codingplatform
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false

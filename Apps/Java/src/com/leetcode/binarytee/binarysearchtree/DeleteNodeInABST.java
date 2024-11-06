@@ -6,7 +6,7 @@ public class DeleteNodeInABST {
     public static TreeNode deleteNode(TreeNode root, int key) {
 
         TreeNode dummy = root;
-        TreeNode node = searchNode(root, key);ccc.mmmkhkczafaaaaxcccccc,,,,,,,,,,asswhdbbyjjfjgxfkovlh aasdwaasdw   1111111111111
+        TreeNode node = searchNode(root, key);
         return dummy;
     }
 
