@@ -58,10 +58,3 @@ PHASE 4 - Microservices
 • Setting up resilience4j
 • Configuring circuit breakers, retry in microservices
 • Introduction to distributed tracing
-
-
-
-
-i need to study all of this
-
-what is the best way can i create a coding platform?

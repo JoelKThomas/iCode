@@ -184,3 +184,15 @@ WHERE salary > 50000;
 - Replace `50000` with the desired salary threshold.
 
 ---
+### 13. Using JOIN in MySQL to Update Multiple Tables
+
+**Description:** In MySQL, You can use a JOIN in an UPDATE statement to update columns in multiple tables simultaneously. Here's how you can do it:
+
+```sql
+UPDATE employee e
+JOIN salary s ON e.employee_id = s.employee_id
+SET e.department = 'Marketing', s.salary_amount = 60000.00
+WHERE e.employee_id = 1;
+```
+
+---
